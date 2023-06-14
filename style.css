@@ -1,0 +1,87 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+ input, #a, #btn, #Scroll{
+      display: none;
+  }
+
+body{
+    background:black;
+}
+
+iframe{
+    display: block;  /* iframes are inline by default */   
+        height: 100vh;  /* Set height to 100% of the viewport height */   
+        width: 100vw;  /* Set width to 100% of the viewport width */     
+        border: none; /* Remove default border */
+        background: black; /* Just for styling */
+}
+
+textarea {
+  Width:82vw;
+  height: 9.5vw;
+  min-height: 9.5vw;
+  max-height: 16vh;
+  border-radius: 4vw;
+  padding: 2vw 3vw 0 7vw;
+  position: fixed;
+  bottom: 0vw;
+  border: 1px solid white;
+  font-size: 4vw;
+  outline:none;
+}
+
+#submit{
+position: fixed;
+bottom:0;
+right:1vw;
+font-size: 7vw;
+background: green;
+border: 1px solid white;
+}
+
+/* Chat containers */
+#CL{
+  position: relative;
+  left: 0;
+  width: 60vw;
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 8vw 4vw 3vw 3vw;
+  padding-bottom: 30px;
+  margin: 20px 0;
+}
+
+#CR {
+    position: relative;
+    left: 40vw;
+    width: 60vw;
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 8vw 4vw 3vw 3vw;
+    padding-bottom: 30px;
+    margin: 20px 0;
+}
+
+/* Style time text */
+#TL{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  color: darkblue;
+  font-size: small;
+}
+
+/* Style time text */
+#DR{
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: maroon;
+  font-size: small;
+}
