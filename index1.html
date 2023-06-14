@@ -1,0 +1,26 @@
+<!doctype html> 
+<html> 
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>100% Secure Chat</title>
+  <script src="jquery-3.6.4.js"> </script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- TABLE CONSTRUCTION-->
+<button id='btn' onclick="Clear();"></button>
+<iframe name="Right" src="Table1.html" ></iframe>
+<iframe name="a" id="a"></iframe>
+<form name='F' action="save_json.php" method="post" target="a">
+  <input name="D" id="D"/>
+  <input name="T" id="T"/>
+  <input name="id" id="id" value='CL'/>
+<textarea placeholder="Message" name="message" id='Clear' class="txta"></textarea><br /><br />
+   <button onclick="DTFI();" type="submit" id="submit"> Send </button>
+</form>
+<script src="main.js"></script>
+ </body>
+</html>
